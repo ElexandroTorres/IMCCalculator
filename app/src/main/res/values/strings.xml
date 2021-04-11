@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">IMCApp</string>
+    <string name="olar_mundo">Olar Mundo!!!</string>
+    <string name="checador">Checador</string>
+    <string name="checkbox">CheckBox</string>
 </resources>

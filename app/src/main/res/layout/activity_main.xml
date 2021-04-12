@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,23 +10,35 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/titleTXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
-        android:text="@string/olar_mundo"
-        style="@style/purple_Style"/>
-
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/checador"
-        style="@style/purple_Style"
+        android:text="@string/calculadoraimc"
+        style="@style/title_text"
         />
-    <CheckBox
+
+    <EditText
+        android:id="@+id/pesoEDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_o_seu_peso"
+        style="@style/input_style"
+        />
+
+   <EditText
+       android:id="@+id/alturaEDT"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       style="@style/input_style"
+       android:hint="@string/digite_a_sua_altura"
+       />
+
+    <Button
+        android:id="@+id/calcularBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checkbox"
-        style="@style/purple_Style"
+        android:text="@string/calcular_imc"
+        style="@style/button"
         />
 
 </LinearLayout>

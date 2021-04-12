@@ -3,4 +3,8 @@
     <string name="olar_mundo">Olar Mundo!!!</string>
     <string name="checador">Checador</string>
     <string name="checkbox">CheckBox</string>
+    <string name="calculadoraimc">Calculadora IMC</string>
+    <string name="digite_o_seu_peso">Digite o seu peso em Kg</string>
+    <string name="digite_a_sua_altura">Digite a sua altura</string>
+    <string name="calcular_imc">Calcular IMC</string>
 </resources>
